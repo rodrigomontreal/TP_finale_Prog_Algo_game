@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  TP_finale2
+//  TP_pgalgo_finale
 //
-//  Created by eleves on 17-12-08.
-//  Copyright © 2017 eleves. All rights reserved.
+//  Created by Rodrigo de Freitas Motta Correa on 17-12-09.
+//  Copyright © 2017 Rodrigo de Freitas Motta Correa. All rights reserved.
 //
 
 import UIKit

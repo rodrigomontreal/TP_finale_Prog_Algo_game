@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TP_finale2.xcodeproj">
+      location = "self:TP_pgalgo_finale.xcodeproj">
    </FileRef>
 </Workspace>
