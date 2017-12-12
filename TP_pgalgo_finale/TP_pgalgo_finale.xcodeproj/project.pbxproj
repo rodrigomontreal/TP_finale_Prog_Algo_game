@@ -14,7 +14,11 @@
 		5B716C8B1FDCECC40056EE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B716C891FDCECC40056EE9A /* LaunchScreen.storyboard */; };
 		5B716C961FDCECC40056EE9A /* TP_pgalgo_finaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B716C951FDCECC40056EE9A /* TP_pgalgo_finaleTests.swift */; };
 		5B716CA11FDCECC40056EE9A /* TP_pgalgo_finaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B716CA01FDCECC40056EE9A /* TP_pgalgo_finaleUITests.swift */; };
-		5B716CAF1FDCED4D0056EE9A /* Bounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B716CAE1FDCED4D0056EE9A /* Bounce.swift */; };
+		9BD249901FDF27DF002E9819 /* Bounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B716CAE1FDCED4D0056EE9A /* Bounce.swift */; };
+		9BD249981FDF64C8002E9819 /* keeper1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD249951FDF64C8002E9819 /* keeper1.png */; };
+		9BD249991FDF64C8002E9819 /* balle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD249961FDF64C8002E9819 /* balle2.png */; };
+		9BD2499D1FDF6652002E9819 /* field.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2499C1FDF6652002E9819 /* field.png */; };
+		9BD2499F1FDF6925002E9819 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2499E1FDF6925002E9819 /* gameover.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		5B716CA01FDCECC40056EE9A /* TP_pgalgo_finaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP_pgalgo_finaleUITests.swift; sourceTree = "<group>"; };
 		5B716CA21FDCECC40056EE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B716CAE1FDCED4D0056EE9A /* Bounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bounce.swift; sourceTree = "<group>"; };
+		9BD249951FDF64C8002E9819 /* keeper1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keeper1.png; sourceTree = "<group>"; };
+		9BD249961FDF64C8002E9819 /* balle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balle2.png; sourceTree = "<group>"; };
+		9BD2499C1FDF6652002E9819 /* field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field.png; sourceTree = "<group>"; };
+		9BD2499E1FDF6925002E9819 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,14 @@
 		5B716C7F1FDCECC30056EE9A /* TP_pgalgo_finale */ = {
 			isa = PBXGroup;
 			children = (
+				9BD249931FDF483A002E9819 /* image */,
 				5B716C801FDCECC40056EE9A /* AppDelegate.swift */,
 				5B716C821FDCECC40056EE9A /* ViewController.swift */,
 				5B716C841FDCECC40056EE9A /* Main.storyboard */,
 				5B716C871FDCECC40056EE9A /* Assets.xcassets */,
 				5B716C891FDCECC40056EE9A /* LaunchScreen.storyboard */,
-				5B716C8C1FDCECC40056EE9A /* Info.plist */,
 				5B716CAE1FDCED4D0056EE9A /* Bounce.swift */,
+				5B716C8C1FDCECC40056EE9A /* Info.plist */,
 			);
 			path = TP_pgalgo_finale;
 			sourceTree = "<group>";
@@ -126,6 +135,17 @@
 				5B716CA21FDCECC40056EE9A /* Info.plist */,
 			);
 			path = TP_pgalgo_finaleUITests;
+			sourceTree = "<group>";
+		};
+		9BD249931FDF483A002E9819 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2499E1FDF6925002E9819 /* gameover.png */,
+				9BD2499C1FDF6652002E9819 /* field.png */,
+				9BD249961FDF64C8002E9819 /* balle2.png */,
+				9BD249951FDF64C8002E9819 /* keeper1.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD2499D1FDF6652002E9819 /* field.png in Resources */,
+				9BD249991FDF64C8002E9819 /* balle2.png in Resources */,
+				9BD249981FDF64C8002E9819 /* keeper1.png in Resources */,
+				9BD2499F1FDF6925002E9819 /* gameover.png in Resources */,
 				5B716C8B1FDCECC40056EE9A /* LaunchScreen.storyboard in Resources */,
 				5B716C881FDCECC40056EE9A /* Assets.xcassets in Resources */,
 				5B716C861FDCECC40056EE9A /* Main.storyboard in Resources */,
@@ -262,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B716CAF1FDCED4D0056EE9A /* Bounce.swift in Sources */,
+				9BD249901FDF27DF002E9819 /* Bounce.swift in Sources */,
 				5B716C831FDCECC40056EE9A /* ViewController.swift in Sources */,
 				5B716C811FDCECC40056EE9A /* AppDelegate.swift in Sources */,
 			);
@@ -463,9 +487,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TP_pgalgo_finaleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigo.TP-pgalgo-finaleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.0;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TP_pgalgo_finale.app/TP_pgalgo_finale";
@@ -479,9 +505,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TP_pgalgo_finaleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigo.TP-pgalgo-finaleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.0;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TP_pgalgo_finale.app/TP_pgalgo_finale";
@@ -494,6 +522,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TP_pgalgo_finaleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigo.TP-pgalgo-finaleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +538,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TP_pgalgo_finaleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigo.TP-pgalgo-finaleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
