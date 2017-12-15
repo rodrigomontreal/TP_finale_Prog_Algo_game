@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4CA0771FE22236003195A5 /* mariosLand.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CA0761FE22235003195A5 /* mariosLand.gif */; };
+		5B4CA0791FE22241003195A5 /* mariosland2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CA0781FE2223F003195A5 /* mariosland2.jpg */; };
 		5B716C811FDCECC40056EE9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B716C801FDCECC40056EE9A /* AppDelegate.swift */; };
 		5B716C831FDCECC40056EE9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B716C821FDCECC40056EE9A /* ViewController.swift */; };
 		5B716C861FDCECC40056EE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B716C841FDCECC40056EE9A /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		5B716C8B1FDCECC40056EE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B716C891FDCECC40056EE9A /* LaunchScreen.storyboard */; };
 		5B716C961FDCECC40056EE9A /* TP_pgalgo_finaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B716C951FDCECC40056EE9A /* TP_pgalgo_finaleTests.swift */; };
 		5B716CA11FDCECC40056EE9A /* TP_pgalgo_finaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B716CA01FDCECC40056EE9A /* TP_pgalgo_finaleUITests.swift */; };
+		5B8FF1101FE20D9D006B4E61 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B8FF10F1FE20D9C006B4E61 /* gameover.mp3 */; };
+		5BE73CFF1FE410A90020D909 /* start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BE73CFE1FE410A90020D909 /* start.mp3 */; };
+		5BE73D011FE4129A0020D909 /* score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BE73D001FE4129A0020D909 /* score.mp3 */; };
+		5BE73D031FE41EF50020D909 /* victory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BE73D021FE41EF50020D909 /* victory.mp3 */; };
 		9BAB38D51FE08124002B6C31 /* mario_mini_base.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAB38C91FE08123002B6C31 /* mario_mini_base.png */; };
 		9BAB38D61FE08124002B6C31 /* mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAB38CA1FE08123002B6C31 /* mushroom.png */; };
 		9BAB38D71FE08124002B6C31 /* keeper.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAB38CB1FE08124002B6C31 /* keeper.png */; };
@@ -54,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B4CA0761FE22235003195A5 /* mariosLand.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mariosLand.gif; sourceTree = "<group>"; };
+		5B4CA0781FE2223F003195A5 /* mariosland2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mariosland2.jpg; sourceTree = "<group>"; };
 		5B716C7D1FDCECC30056EE9A /* TP_pgalgo_finale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TP_pgalgo_finale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B716C801FDCECC40056EE9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B716C821FDCECC40056EE9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +76,10 @@
 		5B716CA01FDCECC40056EE9A /* TP_pgalgo_finaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP_pgalgo_finaleUITests.swift; sourceTree = "<group>"; };
 		5B716CA21FDCECC40056EE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B716CAE1FDCED4D0056EE9A /* Bounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bounce.swift; sourceTree = "<group>"; };
+		5B8FF10F1FE20D9C006B4E61 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		5BE73CFE1FE410A90020D909 /* start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = start.mp3; sourceTree = "<group>"; };
+		5BE73D001FE4129A0020D909 /* score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = score.mp3; sourceTree = "<group>"; };
+		5BE73D021FE41EF50020D909 /* victory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = victory.mp3; sourceTree = "<group>"; };
 		9BAB38C91FE08123002B6C31 /* mario_mini_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario_mini_base.png; sourceTree = "<group>"; };
 		9BAB38CA1FE08123002B6C31 /* mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mushroom.png; sourceTree = "<group>"; };
 		9BAB38CB1FE08124002B6C31 /* keeper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keeper.png; sourceTree = "<group>"; };
@@ -137,6 +149,7 @@
 		5B716C7F1FDCECC30056EE9A /* TP_pgalgo_finale */ = {
 			isa = PBXGroup;
 			children = (
+				5B8FF10E1FE20A15006B4E61 /* musique */,
 				9BD249931FDF483A002E9819 /* image */,
 				5B716C801FDCECC40056EE9A /* AppDelegate.swift */,
 				5B716C821FDCECC40056EE9A /* ViewController.swift */,
@@ -167,9 +180,22 @@
 			path = TP_pgalgo_finaleUITests;
 			sourceTree = "<group>";
 		};
+		5B8FF10E1FE20A15006B4E61 /* musique */ = {
+			isa = PBXGroup;
+			children = (
+				5BE73D021FE41EF50020D909 /* victory.mp3 */,
+				5BE73D001FE4129A0020D909 /* score.mp3 */,
+				5BE73CFE1FE410A90020D909 /* start.mp3 */,
+				5B8FF10F1FE20D9C006B4E61 /* gameover.mp3 */,
+			);
+			path = musique;
+			sourceTree = "<group>";
+		};
 		9BD249931FDF483A002E9819 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				5B4CA0781FE2223F003195A5 /* mariosland2.jpg */,
+				5B4CA0761FE22235003195A5 /* mariosLand.gif */,
 				9BAB38E91FE0A1ED002B6C31 /* castle.png */,
 				9BAB38EA1FE0A1EF002B6C31 /* koppa_shoot.png */,
 				9BAB38E71FE09139002B6C31 /* copaBaby.png */,
@@ -309,15 +335,21 @@
 				9BAB38D71FE08124002B6C31 /* keeper.png in Resources */,
 				9BAB38D61FE08124002B6C31 /* mushroom.png in Resources */,
 				9BAB38D91FE08124002B6C31 /* luigi.png in Resources */,
+				5BE73CFF1FE410A90020D909 /* start.mp3 in Resources */,
 				5B716C8B1FDCECC40056EE9A /* LaunchScreen.storyboard in Resources */,
 				9BAB38E61FE08D31002B6C31 /* princess_peach.png in Resources */,
 				5B716C881FDCECC40056EE9A /* Assets.xcassets in Resources */,
+				5B4CA0771FE22236003195A5 /* mariosLand.gif in Resources */,
 				9BAB38E01FE08124002B6C31 /* drag.png in Resources */,
+				5B4CA0791FE22241003195A5 /* mariosland2.jpg in Resources */,
 				9BAB38DF1FE08124002B6C31 /* mario_foot.png in Resources */,
+				5BE73D031FE41EF50020D909 /* victory.mp3 in Resources */,
 				9BAB38DE1FE08124002B6C31 /* coppa.png in Resources */,
 				9BAB38DB1FE08124002B6C31 /* Brick_Block.png in Resources */,
+				5BE73D011FE4129A0020D909 /* score.mp3 in Resources */,
 				5B716C861FDCECC40056EE9A /* Main.storyboard in Resources */,
 				9BAB38E41FE08D31002B6C31 /* mariosLand.jpg in Resources */,
+				5B8FF1101FE20D9D006B4E61 /* gameover.mp3 in Resources */,
 				9BAB38E81FE0913B002B6C31 /* copaBaby.png in Resources */,
 				9BAB38D51FE08124002B6C31 /* mario_mini_base.png in Resources */,
 				9BAB38E51FE08D31002B6C31 /* DonkeyKong.png in Resources */,
